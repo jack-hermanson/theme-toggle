@@ -1,0 +1,10 @@
+button#toggle-button {
+    background: #222;
+    color: white;
+    border: 3px solid deepskyblue;
+}
+
+body {
+    background: black;
+    color: white;
+}
