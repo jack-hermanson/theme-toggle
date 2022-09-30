@@ -9,10 +9,12 @@ function toggleTheme() {
     if (cssTag.getAttribute("href") === "light.css") {
         cssTag.setAttribute("href", "dark.css");
         toggleButton.innerText = "Theme Activated";
+        toggleButton.className = "fancy-border";
         imgTag.setAttribute("src", "dark-mode-logo.png");
     } else {
         cssTag.setAttribute("href", "light.css");
         toggleButton.innerText = "Dark Mode?";
+        toggleButton.className = "";
         imgTag.setAttribute("src", "light-mode-logo.png");
     }
 
